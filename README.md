@@ -15,6 +15,6 @@ The architecture for the data pipeline is straight forward.
 For the web application, a single server design should suffice. 
 1. The user will first connect to an AWS Load Balancer, which will aid in preventing server overloads by creating new servers on demand if usage gets to be too much for the server.
 
-2. The load balancer will send the users request to the Node.js backend, which will return the Ract.js frontend or API data, depending on the endpoint requested by the user.
+2. The load balancer will send the users request to the Node.js backend, which will return the React.js frontend or API data, depending on the endpoint requested by the user.
 
 ![image](departmentPortalDesignImage.jpg)
